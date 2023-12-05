@@ -17,3 +17,8 @@ if (EMSCRIPTEN)
         DEPENDS javascript/publish.log
         )
 endif()
+
+IF (WHISPER_BUILD_BINDINGS_PYTHON)
+	add_subdirectory(python)
+endif()
+

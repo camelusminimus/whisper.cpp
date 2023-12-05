@@ -1,3 +1,6 @@
 [submodule "bindings/ios"]
 	path = bindings/ios
 	url = https://github.com/ggerganov/whisper.spm
+[submodule "bindings/python/pybind11"]
+	path = bindings/python/pybind11
+	url = git@github.com:pybind/pybind11.git
